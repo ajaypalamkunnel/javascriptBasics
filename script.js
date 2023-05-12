@@ -38,3 +38,17 @@ document.write(typeof test1)
  var test2=null;
 
 
+//controll statemnts
+
+var k = 10
+
+if(k>0)
+{
+    document.write("<br>"+"positive number")
+}else if(k<0)
+{
+    document.write("<br>"+"Negative number")
+}else{
+    document.write("<br>"+"Zero")
+}
+
