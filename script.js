@@ -86,3 +86,6 @@ do{
   document.write("<br>"+l+"<br>")
   l++
 }while(l<=10)
+
+
+
