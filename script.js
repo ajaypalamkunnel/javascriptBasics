@@ -61,3 +61,28 @@ switch (a) {
   default:
     document.write("Invalid entry");
 }
+
+
+//loops
+
+//for loop
+
+for(var i=1;i<=5;i++)
+{
+    document.write("<br>"+i+"<br>")
+}
+
+//while loop
+
+var j= 10;
+while(j>=1)
+{
+    document.write("<br>"+j+"<br>")
+    j--;
+}
+
+var l=1
+do{
+  document.write("<br>"+l+"<br>")
+  l++
+}while(l<=10)
