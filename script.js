@@ -38,3 +38,18 @@ document.write(typeof test1)
  var test2=null;
 
 
+//functions
+
+
+function greetings()
+{
+  document.write("<br>"+"Good Morning"+"<br>")
+}
+
+function sum(n1,n2)
+{
+  document.write(n1 + n2)
+  document.write("<br>"+"sum = "+ n1 + n2 +"<br>")
+}
+
+sum(10,20)
