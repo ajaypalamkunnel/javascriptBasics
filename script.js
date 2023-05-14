@@ -38,3 +38,23 @@ document.write(typeof test1)
  var test2=null;
 
 
+//math object
+
+var a=9;
+
+document.write("<br> sqrt of 9  = "+Math.sqrt(a))
+
+var B=-9;
+
+document.write("<br> ABS VALUE of -9  = "+Math.abs(a))
+
+document.write("<br>min value in 34,23,4,2,1,4 ="+Math.min(34,23,4,2,1,4))
+
+
+document.write("<br>max value in 34,23,4,2,1,4 ="+Math.max(34,23,4,2,1,4))
+
+
+
+
+
+
