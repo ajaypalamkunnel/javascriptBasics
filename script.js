@@ -74,3 +74,13 @@ let e2 =  new Staff("Nirmal","creator",30000)
 e1.displaySalary()
 e2.displaySalary()
 
+//Inheritance
+
+class Manager extends Staff{
+
+}
+
+let m1 = new Manager("smith","HR Manager",50000)
+console.log(m1);
+
+m1.displaySalary();
