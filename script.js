@@ -38,3 +38,6 @@ document.write(typeof test1)
  var test2=null;
 
 
+var a = document.getElementById("head");
+
+a.innerHTML= "learn javaScriot"
