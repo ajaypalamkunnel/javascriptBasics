@@ -37,4 +37,17 @@ document.write(typeof test1)
 //null
  var test2=null;
 
+//oops
+// sample object
+let employee ={
+    name: "John",
+    position: "Dev",
+    salary:"40000",
+    getSalary:function (){
+        document.write("<br>Salary of "+this.name+" is "+this.salary)
+    }
 
+}
+
+employee.getSalary()
+console.log(employee);
