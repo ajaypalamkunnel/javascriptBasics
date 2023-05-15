@@ -51,3 +51,26 @@ let employee ={
 
 employee.getSalary()
 console.log(employee);
+
+
+//class
+
+class Staff{
+    constructor(name,position,salary){
+        this.name = name;
+        this.position = position;
+        this.salary = salary;
+
+    }
+
+    displaySalary(){
+        document.write("<br>salary of "+this.name+" is "+this.salary)
+    }
+}
+
+let e1 = new Staff("Afsal","Accountant",60000)
+let e2 =  new Staff("Nirmal","creator",30000)
+
+e1.displaySalary()
+e2.displaySalary()
+
